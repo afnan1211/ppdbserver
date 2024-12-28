@@ -1,0 +1,15 @@
+/* File app.css */
+
+.pagination .page-item .page-link {
+    font-size: 0.875rem;
+    padding: 0.5rem 0.75rem;
+}
+
+.pagination .page-item .page-link i {
+    display: none;
+}
+
+.pagination .page-item:hover .page-link {
+    background-color: #007bff;
+    color: white;
+}
