@@ -68,7 +68,7 @@
                             @enderror
                         </div>
                         <div class="form-group mt-3">
-                            <label for="sekolah_asal">Sekolah Asal (SD/MI):</label>
+                            <label for="sekolah_asal">Sekolah Asal (SMP/MTS):</label>
                             <input type="text" name="sekolah_asal" id="sekolah_asal" class="form-control @error('sekolah_asal') is-invalid @enderror" value="{{ old('sekolah_asal') }}" required>
                             @error('sekolah_asal')
                                 <div class="invalid-feedback">{{ $message }}</div>
